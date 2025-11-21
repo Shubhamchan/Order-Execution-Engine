@@ -26,8 +26,6 @@ export async function sendAndConfirm(tx) {
 
   return { txHash: sig, confirmation };
 }
-
-// Helper to create an empty transaction (you'll append Raydium/Meteora instructions)
 export function createEmptyTransaction() {
   return new Transaction();
 }
