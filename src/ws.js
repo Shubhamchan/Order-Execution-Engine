@@ -1,4 +1,4 @@
-// orderId -> Set<ws>
+
 const clients = new Map();
 
 export function subscribe(ws, orderId) {
