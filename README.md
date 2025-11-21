@@ -193,7 +193,7 @@ Includes:
 YouTube link:
 
 ```
-[https://youtu.be/your-demo-video](https://youtu.be/S8UJAEU-siQ)
+(https://youtu.be/S8UJAEU-siQ)
 ```
 
 ---
