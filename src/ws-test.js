@@ -5,11 +5,8 @@ const app = Fastify({ logger: true });
 
 await app.register(websocket);
 
-// Yahan 'socket' hi WebSocket instance hai (koi .socket nahi)
 app.get("/ws", { websocket: true }, (socket, req) => {
   console.log("WS connected");
-
-  // connect hote hi ek message bhejo
   socket.send("hello-from-server");
 
   socket.on("message", (msg) => {
