@@ -1,0 +1,60 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+logs/
+*.log
+log.txt
+
+*.pid
+*.seed
+*.pid.lock
+
+dist/
+build/
+.cache/
+.tmp/
+
+*.tsbuildinfo
+
+dump.rdb
+appendonly.aof
+
+*.json
+*.key
+*.keypair.json
+*.pem
+
+# Postgres dump
+*.sql
+
+# VSCode
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Parcel / Vite / Webpack cache
+.parcel-cache
+.vite
+
+# Logs created by BullMQ / Redis
+*.rdb
+*.aof
+
+# Windows specific
+desktop.ini
+
+# OneDrive
